@@ -7,6 +7,7 @@ build_requires:
   HTTP::Request::Common: 0
   Plack::Request: 0
   Plack::Test: 0
+  Scalar::Util: 0
   Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.42
@@ -29,4 +30,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/bestpractical/plack-middleware-test-stashwarnings
-version: 0.03
+version: 0.04
